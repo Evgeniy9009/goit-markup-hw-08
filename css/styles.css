@@ -1,0 +1,77 @@
+:root {
+  --primary-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-text-color-theme-dark: #ffffff;
+  --secondary-text-color-theme-dark: rgba(255, 255, 255, 0.6);
+  --primary-background: #2f303a;
+  --accent-background: #188ce8;
+  --light-background-color: #f5f4fa;
+  --dark-background-color: #2f303a;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.btn {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 1200px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* ====  header  ==== */
+
+/* ==== main ==== */
+/* ==== HERO ==== */
+
+/* ==== ОСОБЕННОСТИ ==== */
+
+/* ==== Чем мы занимаемся ==== */
+
+/* ==== НАША КОМАНДА ==== */
+
+/* ==== Постоянные клиенты ==== */
+
+/* ==== footer ==== */
+
+/* ====  portfolio  ==== */
+
+/* Модальное окно */
