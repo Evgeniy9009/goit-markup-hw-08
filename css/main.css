@@ -83,6 +83,7 @@ img {
   position: absolute;
   top: 10px;
   right: 15px;
+  z-index: 100;
 }
 
 .menu-button:hover {
@@ -102,7 +103,6 @@ img {
 }
 
 .nav__container {
-  z-index: 1000;
   width: 100%;
 }
 
@@ -110,9 +110,9 @@ img {
   .nav__container {
     display: none;
     position: absolute;
-    top: 100%;
+    top: 0;
     left: 0;
-    height: 796px;
+    height: 100vh;
     background-color: #ffffff;
   }
   .nav__container.is-open {
@@ -133,6 +133,7 @@ img {
 
 @media screen and (max-width: 767px) {
   .nav__list {
+    margin-top: 48px;
     margin-left: 40px;
   }
 }
