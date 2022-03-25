@@ -18,26 +18,26 @@
   <body>
     <header class="header">
       <div class="container header__container">
+        <button
+          type="button"
+          class="menu-button btn"
+          aria-expanded="false"
+          aria-controls="menu-container"
+          data-menu-button
+        >
+          <svg
+            width="40"
+            height="40"
+            aria-label="Переключатель мобильного меню"
+          >
+            <use class="icon-cross" href="./images/icons.svg#cross"></use>
+            <use class="icon-menu" href="./images/icons.svg#menu"></use>
+          </svg>
+        </button>
         <nav class="nav">
           <a class="logo logo--header link" href=""
             ><span class="logo__accent">Web</span>Studio</a
           >
-          <button
-            type="button"
-            class="menu-button btn"
-            aria-expanded="false"
-            aria-controls="menu-container"
-            data-menu-button
-          >
-            <svg
-              width="40"
-              height="40"
-              aria-label="Переключатель мобильного меню"
-            >
-              <use class="icon-cross" href="./images/icons.svg#cross"></use>
-              <use class="icon-menu" href="./images/icons.svg#menu"></use>
-            </svg>
-          </button>
           <div class="nav__container" id="menu-container" data-menu>
             <!-- <button
               type="button"
@@ -55,6 +55,7 @@
                 <use class="icon-menu" href="./images/icons.svg#menu"></use>
               </svg>
             </button> -->
+
             <ul class="nav__list list">
               <li class="nav__item">
                 <a class="nav__link link" href="./index.html">Студия</a>
