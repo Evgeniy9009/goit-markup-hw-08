@@ -4,6 +4,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -114,10 +118,20 @@ img {
     top: 0;
     left: 0;
     height: 100vh;
+    min-height: 450px;
     background-color: #ffffff;
   }
   .nav__container.is-open {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -203,7 +217,6 @@ img {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    margin-top: 254px;
     margin-left: 40px;
   }
 }
@@ -309,13 +322,20 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-left: 30px;
-  margin-top: 48px;
 }
 
 @media screen and (min-width: 768px) {
   .social-list {
     display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .social-list__item {
+    margin-bottom: 48px;
   }
 }
 
