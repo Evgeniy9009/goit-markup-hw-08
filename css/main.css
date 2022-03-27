@@ -114,7 +114,6 @@ img {
 @media screen and (max-width: 767px) {
   .nav__container {
     display: none;
-    position: absolute;
     top: 0;
     left: 0;
     height: 100vh;
@@ -122,6 +121,7 @@ img {
     background-color: #ffffff;
   }
   .nav__container.is-open {
+    position: fixed;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1098,11 +1098,11 @@ img {
 
 .modal {
   position: absolute;
-  top: 50px;
+  top: 50%;
   left: 50%;
   background-color: #fff;
-  -webkit-transform: translate(-50%) scale(1);
-          transform: translate(-50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1116,16 +1116,6 @@ img {
   .modal {
     width: 450px;
     height: 609px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .modal {
-    top: 50%;
-    left: 50%;
-    background-color: #fff;
-    -webkit-transform: translate(-50%, -50%) scale(1);
-            transform: translate(-50%, -50%) scale(1);
   }
 }
 

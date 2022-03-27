@@ -114,7 +114,6 @@ img {
 @media screen and (max-width: 767px) {
   .nav__container {
     display: none;
-    position: absolute;
     top: 0;
     left: 0;
     height: 100vh;
@@ -122,6 +121,7 @@ img {
     background-color: #ffffff;
   }
   .nav__container.is-open {
+    position: fixed;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
