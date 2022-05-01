@@ -1,28 +1,12 @@
 @import "./utils/variables";
 @import "./base/reset";
-@import "./components/page-header";
+@import "./base/container";
+@import "./layout/page-header";
 @import "./components/logo";
-@import "./components/projects";
-@import "./components/job";
-@import "./components/footer";
+@import "./layout/projects";
+@import "./layout/job";
+@import "./layout/footer";
 @import "./components/btn";
 @import "./components/social";
 
-.container {
-  box-sizing: border-box;
-  padding: 0 15px;
-  margin-left: auto;
-  margin-right: auto;
 
-  @media screen and (min-width: 480px) {
-    width: 480px;
-  }
-
-  @media screen and (min-width: 768px) {
-    width: 768px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    width: 1200px;
-  }
-}
